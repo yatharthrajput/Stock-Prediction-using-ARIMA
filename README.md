@@ -1,4 +1,4 @@
-# Stock-Prediction-using-ARIMA
+# Stock-Prediction-using-ARIMA<br>
 ARIMA (Auto Regressive Integrated Moving Average) is a forecasting algorithm based on the idea that the information in the past values of the time series can alone be used to predict the future values.<br>
 ARIMA models explain a time series based on its own past values, basically its own lags and the lagged forecast errors. <br> An ARIMA model is characterized by 3 terms p, d, q:<br> 
 - p is the order of the AR term <br>
