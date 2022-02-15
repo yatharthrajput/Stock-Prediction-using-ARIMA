@@ -10,4 +10,4 @@ ARIMA models explain a time series based on its own past values, basically its o
 -   p is the order of the Auto Regressive (AR) term. It refers to the number of lags to be used as predictors. <br> q is the order of the Moving Average (MA) term. It refers to the number of lagged forecast errors that should go into the ARIMA Model.  We'll use the Augmented Dickey Fuller (ADF) test to check if the price series is stationary.  The null hypothesis of the ADF test is that the time series is non-stationary. So, if the p-value of the test is less than the significance level (0.05) then we can reject the null hypothesis and infer that the time series is indeed stationary.  So, in our case, if the p-value is greater than 0.05 we'll need to find the order of differencing.
 
 1223
-5
+
